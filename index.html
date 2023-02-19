@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>URL Shortener</title>
+	<link rel="canonical" href="http://lesixxer.shop" />
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>URL Shortener</h1>
+    <form action="shorten.html" method="POST">
+      <label for="longUrl">Long URL:</label>
+      <input type="url" name="longUrl" id="longUrl" required>
+      <button type="submit">Shorten</button>
+    </form>
+    <div class="social-icons">
+      <a href="https://api.whatsapp.com/send?phone=8801797951359&text=Hello,%20I%27m%20interested%20on%20your%20services."><img src="whatsapp.png"></a>
+      <a href="https://www.facebook.com/rakhib420"><img src="facebook.png"></a>
+    </div>
+    <p>&copy; 2023 URL Shortener</p>
+    <br>
+    <p style="color:red;"><strong>Last Update: 4.07 AM, 19.02.2023</strong></p>
+  </div>
+  <script>
+    function copyToClipboard() {
+      var shortLinkField = document.getElementById("shortLink");
+      shortLinkField.select();
+      document.execCommand("copy");
+      alert("Shortened URL copied to clipboard!");
+    }
+  </script>
+<center><font size="2">This is the free demo result. For a full version of this website, please go to  <a href="https://www6.waybackmachinedownloader.com/website-downloader-online/scrape-all-files/">Website Downloader</a></font></center></body>
+</html>
